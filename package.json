@@ -1,0 +1,17 @@
+{
+  "name": "mysterio-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html --out-dir public",
+    "dev": "parcel index.html"
+  },
+  "author": "Kalleu Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "1.11.0",
+    "sass": "^1.22.12"
+  }
+
+}
