@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build index.html --out-dir public",
-    "dev": "parcel index.html"
+    "build": "parcel build index.js",
+    "dev": "parcel watch index.js"
   },
-  "author": "Kalleu Oliveira",
+  "author": "Apiki",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "parcel-bundler": "1.11.0",
-    "sass": "^1.22.12"
+    "node-sass": "^4.120.0"
   }
 }
